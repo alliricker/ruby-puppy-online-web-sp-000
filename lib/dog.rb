@@ -10,12 +10,9 @@ def initialize (name)
 end
 
 
+
 def self.all
   @@all
-end
-
-def print_all= (print_all)
-  @print_all = print_all
 end
 
 def print_all
@@ -37,3 +34,8 @@ end
 end
 
 fido = Dog.new ("Fido")
+Dog.new ("Fido")
+aldo = Dog.new ("Aldo")
+Dog.new = ("Aldo")
+Dog.all 
+Dog.print_all 
