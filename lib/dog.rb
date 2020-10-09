@@ -37,5 +37,5 @@ fido = Dog.new ("Fido")
 Dog.new ("Fido")
 aldo = Dog.new ("Aldo")
 Dog.new = ("Aldo")
-Dog.all 
-Dog.print_all 
+Dog.all
+Dog.print_all
