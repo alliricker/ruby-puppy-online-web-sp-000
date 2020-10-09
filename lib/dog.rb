@@ -15,7 +15,7 @@ def self.all
 end
 
 def self.print_all
-@@all.each do |x|
+@@all.map(&:name) do |x|
   puts x
 end
 end
