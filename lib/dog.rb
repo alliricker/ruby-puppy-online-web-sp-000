@@ -15,7 +15,7 @@ def self.all
   @@all
 end
 
-def print_all
+def self print_all
 @@all.map do |x|
   puts x
 end
