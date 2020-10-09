@@ -14,8 +14,12 @@ def self.all
   @@all
 end
 
-def self.print_all
-@@all.map(&:name) do |x|
+def print_all = (print_all)
+  @print_all = print_all
+end
+
+def print_all
+@@all.map do |x|
   puts x
 end
 end
