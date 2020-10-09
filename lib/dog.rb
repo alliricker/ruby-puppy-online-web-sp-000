@@ -15,7 +15,7 @@ def self.all
 end
 
 def print_all = (print_all)
-  @print_all = print_all
+  @print_all= print_all
 end
 
 def print_all
