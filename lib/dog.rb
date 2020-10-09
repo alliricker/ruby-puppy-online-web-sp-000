@@ -15,8 +15,8 @@ def self.all
 end
 
 def self.print_all
-@@all.each do |x, y|
-  puts y
+@@all.each do |x|
+  puts x
 end
 end
 
